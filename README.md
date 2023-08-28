@@ -10,7 +10,7 @@ In order to make use of this project, the following prerequisites must be met fo
 
 1. Node version 0.6.0 and above
 2. NPM (node's package manager, used to install the node library)
-3. Axios (make sure axios is install because it is a dependency)
+3. Axios (make sure axios is installed because it is a dependency)
 
 ## Example code
 
