@@ -1,0 +1,28 @@
+{
+  "name": "clicknpaymobile",
+  "version": "1.0.1",
+  "description": "This is a node js  wrapper for the clicknpay open api , to initiate transactions for econet and onemoney users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fambirachimwe/clicknpayMobilePayments.git"
+  },
+  "keywords": [
+    "ecocash",
+    "onemoney",
+    "clicknpay",
+    "payments"
+  ],
+  "author": "Tatenda Fambirachimwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fambirachimwe/clicknpayMobilePayments/issues"
+  },
+  "homepage": "https://github.com/Fambirachimwe/clicknpayMobilePayments#readme",
+  "dependencies": {
+    "axios": "^1.5.0"
+  }
+}
