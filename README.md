@@ -16,7 +16,7 @@ In order to make use of this project, the following prerequisites must be met fo
 
 ```js
 const Clicknpay = require("clicknpaymobile");
-const payment = new clicknpay("Unique code from the dashboard");
+const payment = new clicknpay("Unique code from the dashboard", "paymentURL");
 
 // initiate a mobile payement via USSD tot the customer
 payment

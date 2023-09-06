@@ -1,11 +1,13 @@
 const axios = require('axios');
 
-function Clicknpaymoblie(uniqueId) {
+function Clicknpaymoblie(uniqueId, paymentURL) {
     this.uniqueId = uniqueId;
+    this.paymentURL = paymentURL;
+
 
     this.mobilePayment = async (amount, customerPhoneNumber, currencyCode) => {
-        const ecocashUrl = 'https://backendservices.clicknpay.africa:2081/ecocashapi/initiate';
-        const netoneUrl = 'https://backendservices.clicknpay.africa:2081/onemoneyapi/initiate';
+        const ecocashUrl = `${this.paymentURL}/ecocashapi/initiate`;
+        const netoneUrl = `${this.paymentURL}/onemoneyapi/initiate`;
         const econet = /^07[78]/; // regex for econet phone number
         const netone = /^071/; // regex for netone phone number
         let method;
