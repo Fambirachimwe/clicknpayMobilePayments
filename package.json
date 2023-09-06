@@ -1,6 +1,6 @@
 {
   "name": "clicknpaymobile",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a node js  wrapper for the clicknpay open api , to initiate transactions for econet and onemoney users",
   "main": "index.js",
   "scripts": {
