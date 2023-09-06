@@ -44,8 +44,8 @@ function Clicknpaymoblie(uniqueId, paymentURL) {
 
     // use the resonse from the mobile payment function
     this.chechTransactionStatus = async (res) => {
-        const ecocashUrl = `https://backendservices.clicknpay.africa:2081/ecocashapi/status/${res.enduserId}/${res.clientCorrelator}`;
-        const netoneUrl = `https://backendservices.clicknpay.africa:2081/onemoneyapi/status/${res.endUserId}/${res.clientCorrelator}`;
+        const ecocashUrl = `${this.paymentURL}/ecocashapi/status/${res.enduserId}/${res.clientCorrelator}`;
+        const netoneUrl = `${this.paymentURL}/onemoneyapi/status/${res.endUserId}/${res.clientCorrelator}`;
 
         const econet = /^7[78]/; // regex for econet phone number
         const netone = /^71/; // regex for netone phone number
